@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+gem 'faye', '~> 1.2', '>= 1.2.2'
+gem 'thin'
+gem 'rack'

@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Ruby WebSocket Server and JS Client</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="jumbotron">
+						<h1 class="display-4">Ruby WebSocket Server and JS client</h1>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<h3>WebSocket Request</h3>
+					<form>
+						<div class="form-group">
+							<label for="payload">Request Payload</label>
+							<input type="email" class="form-control" id="payload" placeholder="Enter payload">
+							<small id="emailHelp" class="form-text text-muted">Payload to be sent to the Ruby WebSocket server.</small>
+						</div>
+						<a href="#" id="test_button" class="btn btn-primary">Send Payload to WebSocket server</a>
+					</form>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col">
+					<h3>WebSocket Logs</h3>
+					<div id="log"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--JavaScript files-->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="client.js"></script>
+	</body>
+</html>
